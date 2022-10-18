@@ -1,0 +1,414 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "IBM Plex Sans", sans-serif;
+}
+
+.body {
+  background-color: #f2f2f2;
+}
+
+.header {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  padding: 2.5rem 1.5rem 10.375rem 1.5rem;
+  overflow: hidden;
+  z-index: 0;
+}
+
+.email {
+  font-weight: bold;
+  display: block;
+}
+
+.mob-blur-bg {
+  position: absolute;
+  top: -14.0625rem;
+  right: -12.5rem;
+  z-index: -1;
+}
+
+.head-h1 {
+  font-weight: 700;
+  font-size: 2.5rem;
+  line-height: 3rem;
+  margin-top: 4rem;
+  margin-bottom: 1.25rem;
+  letter-spacing: -0.0284rem;
+}
+
+.head-p {
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 1.625rem;
+}
+
+.main {
+  background-color: #191826;
+  border-radius: 0.75rem;
+}
+
+.mobile-pic {
+  width: 13.0625rem;
+  height: 26.875rem;
+  position: absolute;
+  z-index: 10;
+  top: -6.125rem;
+}
+
+.bg-main {
+  width: 17.5rem;
+  height: 26.25rem;
+  position: relative;
+}
+.section-dark {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+}
+
+.section-orange {
+  background-color: #fa7453;
+  border-radius: 0.75rem;
+  display: flex;
+  flex-direction: column;
+
+  padding: 3rem 2.3125rem;
+  row-gap: 0.9375rem;
+  color: white;
+  position: relative;
+  z-index: 1;
+}
+
+.android-but {
+  display: flex;
+  column-gap: 0.5rem;
+  justify-content: center;
+  align-items: center;
+  max-width: 18.5625rem;
+  background-color: #fcfaf9;
+  padding: 0.9375rem 3.625rem;
+  border-radius: 0.75rem;
+  font-weight: 700;
+  font-size: 1.125rem;
+  line-height: 2rem;
+  color: black;
+  text-align: center;
+  letter-spacing: -0.0112rem;
+  align-self: center;
+}
+
+.apple-but {
+  display: flex;
+  column-gap: 0.5rem;
+  justify-content: center;
+  align-items: center;
+  background-color: #191826;
+  padding: 0.9375rem 77px;
+  border-radius: 0.75rem;
+  color: white;
+  font-weight: 700;
+  font-size: 1.125rem;
+  line-height: 2rem;
+  max-width: 18.5rem;
+  text-align: center;
+  letter-spacing: -0.0112rem;
+  max-width: 18.5625rem;
+  align-self: center;
+}
+
+.orange-h1 {
+  font-weight: 700;
+  font-size: 2rem;
+  line-height: 2.5rem;
+}
+
+.orange-p {
+  font-weight: 400;
+  font-size: 1.125rem;
+  line-height: 1.75rem;
+}
+.price {
+  color: white;
+  font-weight: 400;
+  font-size: 1.25rem;
+  line-height: 2rem;
+  display: flex;
+  align-items: center;
+  column-gap: 1rem;
+  margin-top: 2.25rem;
+  margin-bottom: 2rem;
+}
+
+.dolar {
+  font-weight: 700;
+  font-size: 4.0625rem;
+  line-height: 3.25rem;
+}
+
+.footer {
+  padding: 4.0625rem 1.5rem 5rem 1.5rem;
+}
+
+.footer-p {
+  margin-top: 2rem;
+  margin-bottom: 4rem;
+}
+
+.logo-soc-cont {
+  display: flex;
+  column-gap: 1.25rem;
+}
+
+.tab-blur-bg {
+  display: none;
+}
+
+.bg-head {
+  display: none;
+}
+
+.ilustra {
+  display: none;
+}
+
+.desk-blur-bg {
+  display: none;
+}
+
+@media (min-width: 768px) {
+  .section-orange {
+    position: absolute;
+    top: -16.9375rem;
+    left: 26%;
+    width: 24.9375rem;
+    z-index: 2;
+  }
+
+  .bg-main {
+    position: relative;
+    top: -2.375rem;
+  }
+
+  .footer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    column-gap: 14.375rem;
+    padding: 11.375rem 2.0625rem 0.9375rem 2.0625rem;
+  }
+
+  .footer-p {
+    width: 22.875rem;
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 1.625rem;
+  }
+
+  .logo-soc-cont {
+    /* display: inline-block; */
+    align-items: center;
+  }
+
+  .email {
+    display: inline;
+  }
+
+  .mobile-pic {
+    display: none;
+  }
+
+  .main {
+    height: 37.5rem;
+  }
+
+  .mob-blur-bg {
+    display: none;
+  }
+
+  .tab-blur-bg {
+    display: block;
+    position: absolute;
+    z-index: -2;
+    top: -18.75rem;
+    right: -13.1875rem;
+  }
+
+  .head-h1 {
+    font-weight: 700;
+    font-size: 4rem;
+    line-height: 4rem;
+    width: 32.5rem;
+
+    letter-spacing: -0.0455rem;
+  }
+
+  .head-p {
+    font-weight: 400;
+    font-size: 1.125rem;
+    line-height: 1.75rem;
+    width: 32.125rem;
+  }
+
+  .header {
+    padding: 3.875rem 2.5rem 16.25rem 2.5rem;
+  }
+
+  .bg-head {
+    display: block;
+    position: absolute;
+    top: -2.625rem;
+    right: -2.5rem;
+    z-index: -1;
+    width: 16.6875rem;
+    height: 25rem;
+  }
+
+  .ilustra {
+    position: absolute;
+    width: 16.875rem;
+    height: 34.75rem;
+    top: -35.1875rem;
+    right: 17.25rem;
+    z-index: 1;
+    display: block;
+  }
+
+  .tab-layout-2 {
+    position: relative;
+    width: 31.25rem;
+    align-self: center;
+  }
+
+  .main-circle {
+    width: 17.5rem;
+    height: 26.25rem;
+  }
+
+  .main {
+    margin-left: 2.0625rem;
+    margin-right: 2.0625rem;
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+@media (min-width: 1440px) {
+  .desk-blur-bg {
+    display: block;
+    position: absolute;
+    z-index: -1;
+    top: -19.1875rem;
+    right: -12.6875rem;
+  }
+
+  .tab-blur-bg {
+    display: none;
+  }
+
+  .main {
+    width: 69.375rem;
+  }
+
+  .body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .tab-layout {
+    display: flex;
+    align-items: flex-start;
+    column-gap: 8.5625rem;
+  }
+
+  .logo-foot {
+    margin-top: 2rem;
+  }
+
+  .footer {
+    flex-direction: row;
+    justify-content: space-between;
+column-gap: 22.375rem;
+    padding-right: 0;
+    padding-left: 0;
+    padding-top: 12.5rem;
+  }
+
+  .header {
+    overflow: visible;
+    padding: 3.8125rem 0rem 20rem 10.3125rem;
+    width: 100%;
+  }
+
+  .bg-head {
+    width: 19.5rem;
+    height: 29.25rem;
+    top: -2.5625rem;
+    right: 0rem;
+  }
+
+  .head-h1 {
+    font-weight: 700;
+    font-size: 5.5rem;
+    line-height: 5.5rem;
+    width: 63.4375rem;
+    letter-spacing: -0.0625rem;
+  }
+
+  .head-p {
+    font-weight: 400;
+    font-size: 1.25rem;
+    line-height: 2.125rem;
+    width: 51.5625rem;
+  }
+
+  .ilustra {
+    width: 18.75rem;
+    height: 37.875rem;
+    right: 21rem;
+    top: -43rem;
+  }
+
+  .section-orange {
+    width: 27.875rem;
+    /* height: 625px; */
+    padding: 3.125rem;
+    top: -24rem;
+    left: 59%;
+  }
+
+  .orange-h1 {
+    font-weight: 700;
+    font-size: 2.5rem;
+    line-height: 3.25rem;
+  }
+
+  .orange-p {
+    font-weight: 400;
+    font-size: 1.25rem;
+    line-height: 34px;
+  }
+
+  .apple-but {
+    width: 20.8125rem;
+    max-width: none;
+  }
+  .android-but {
+    width: 20.8125rem;
+    max-width: none;
+  }
+
+  .bg-main {
+    width: 19.5rem;
+    height: 29.25rem;
+  }
+
+  .price {
+    margin-top: 2.5rem;
+    margin-bottom: 2.5rem;
+  }
+}
