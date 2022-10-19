@@ -342,7 +342,7 @@ column-gap: 22.375rem;
   .header {
     overflow: visible;
     padding: 3.8125rem 0rem 20rem 10.3125rem;
-    width: 100%;
+ min-width: 90rem;
   }
 
   .bg-head {
@@ -412,4 +412,22 @@ column-gap: 22.375rem;
     margin-top: 2.5rem;
     margin-bottom: 2.5rem;
   }
+}
+
+
+.apple-but:hover{
+cursor: pointer;
+background-color:#66E2DC;
+;
+
+}
+
+
+
+.android-but:hover {
+cursor: pointer;
+background-color:  #FFB964;
+
+
+
 }
