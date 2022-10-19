@@ -195,10 +195,12 @@
   }
 
   .footer {
+    max-width: 100%;
     display: flex;
     flex-direction: row;
     align-items: center;
-    column-gap: 14.375rem;
+    justify-content: space-between;
+    /* column-gap: 14.375rem; */
     padding: 11.375rem 2.0625rem 0.9375rem 2.0625rem;
   }
 
@@ -431,3 +433,4 @@ background-color:  #FFB964;
 
 
 }
+
